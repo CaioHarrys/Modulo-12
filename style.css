@@ -93,6 +93,17 @@ body{
     background-color:#450134 ;
     box-shadow: 0px 10px 10px -10px black;
 }
+.section-2{
+    width: 100%;
+    height: auto;
+}
+.secondary{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .secondary-one{
     display: flex;
     flex-direction: column;
@@ -100,6 +111,17 @@ body{
     align-items: center;
     color: white;
     font-family: var(--font-family-one);
+    padding: 10px;
+}
+.secondary-one>h1{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-family: var(--font-family-two);
+    font-size: 1em;
 }
 .secondary-one>img{
     width: 200px;
@@ -111,6 +133,10 @@ body{
 .secondary-one-two-three{
     display: flex;
     flex-direction: column;
+    color: white;
+    padding: 10px;
+    font-size: 2em;
+    font-family: var(--font-family-two);
 }
 .secondary-one-1{
     display: flex;
@@ -118,11 +144,25 @@ body{
     justify-content: center;
     align-items: center;
 }
+.secondary-one-two{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 200;
+    font-family: var(--font-family-one);
+}
+.secondary-one-pipe{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: var(--font-family-one);
+    font-weight: 100;
+}
 /*TESTE*/
 .primary{
-    margin-top: 2em;
     background-image:url(./Imagens/fundo.png);
-    height: 110%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
