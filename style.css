@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 :root{
-    --bg-color:#010440;
+    --bg-color:#0f0c29;
 
 
     --font-family-one:'Rajdhani', sans-serif;
@@ -19,7 +19,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #480048;
+    background-color: #0f0c29;
     display: flex;
     flex-direction: column;
 }
@@ -52,13 +52,12 @@ body{
 }
 .section-1{
     width: 100%;
-    height: auto;
-    margin-top: 5em;
+    height: 600px;
 }
 .primary{
     display:flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items:center;
 }
 .primary-one{
@@ -119,3 +118,24 @@ body{
     justify-content: center;
     align-items: center;
 }
+/*TESTE*/
+.primary{
+    margin-top: 2em;
+    background-image:url(./Imagens/fundo.png);
+    height: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  @media screen and (min-width: 601px) {
+    div.primary-one {
+      font-size: 1em;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.primary-one {
+      font-size: 0.9em;
+    }
+  }
