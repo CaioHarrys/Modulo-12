@@ -124,14 +124,14 @@ body{
     font-size: 1em;
 }
 .secondary-one>img{
-    width: 200px;
+    width: 60%;
 }
 .secondary-one-two{
     display: flex;
     flex-direction: row;
 }
 .secondary-one-two-three{
-    display: flex;
+    display: flex; 
     flex-direction: column;
     color: white;
     padding: 10px;
@@ -172,10 +172,16 @@ body{
     div.primary-one {
       font-size: 1em;
     }
+    div.secondary-one-two-three{
+        font-size: 1.5em;
+    }
   }
   
   @media screen and (max-width: 600px) {
     div.primary-one {
       font-size: 0.9em;
+    }
+    .secondary-one-two-three{
+        font-size: 1.2em;
     }
   }
