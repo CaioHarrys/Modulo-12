@@ -232,6 +232,9 @@ body{
     padding-left: 1em;
     padding-right: 1em;
 }
+.blocks-text>img{
+    width: 10%;
+}
 #para-text{
     color: whitesmoke;
     font-family: var(--font-family-one);
