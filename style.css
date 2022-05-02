@@ -277,7 +277,7 @@ body{
     background-size: cover;
     position: relative;
   }
-  @media screen and (min-width: 800px) {
+  @media screen and (max-width: 1000px) {
     div.primary-one {
       font-size: 1em;
     }
@@ -286,6 +286,10 @@ body{
     }
     .blocks{
         height: auto;
+        width: 90%;
+    }
+    .section-4{
+        flex-direction: column;
     }
   }
   
